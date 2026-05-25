@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #00a8b5;
+    color: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.pesquisa-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pesquisa-section p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.pesquisa-section label {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.radios {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.radios label {
+    margin: 0;
+}
+
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #777;
+}
